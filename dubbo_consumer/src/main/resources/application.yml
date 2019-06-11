@@ -1,0 +1,9 @@
+## 避免和 server 工程端口冲突
+server:
+    port: 8081
+
+  ## Dubbo 服务消费者配置
+spring:
+  dubbo: application.name: consumer
+         registry.address: zookeeper://192.168.157.128:2181
+         scan: com.lengedyun.dubbo_consumer.service
