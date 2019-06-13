@@ -1,8 +1,8 @@
-## ±ÜÃâºÍ server ¹¤³Ì¶Ë¿Ú³åÍ»
+## é˜²æ­¢ä¸serverå†²çª
 server:
     port: 8081
 
-  ## Dubbo ·şÎñÏû·ÑÕßÅäÖÃ
+  ## Dubbo æ¶ˆè´¹è€…
 spring:
   dubbo: application.name: consumer
          registry.address: zookeeper://192.168.157.128:2181

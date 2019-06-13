@@ -1,7 +1,7 @@
-## Dubbo ·şÎñÌá¹©ÕßÅäÖÃ
+## Dubbo æœåŠ¡æä¾›è€…é…ç½®
 spring:
-  dubbo: application.name: provider    #·şÎñÃû³Æ
-         registry.address: zookeeper://192.168.157.128:2181   #×¢²áÖĞĞÄµØÖ·
-         protocol.name: dubbo     #dubbo Ğ­Òé
+  dubbo: application.name: provider    #æœåŠ¡åç§°
+         registry.address: zookeeper://192.168.157.128:2181   #æ³¨å†Œä¸­å¿ƒåœ°å€
+         protocol.name: dubbo     #dubbo åè®®
          protocol.port: 20880
-         scan: com.lengedyun.dubbo_producer.service     #ÉùÃ÷ĞèÒª±©Â¶µÄ·şÎñ½Ó¿Ú
+         scan: com.lengedyun.dubbo_producer.service     #å£°æ˜éœ€è¦æš´éœ²çš„æœåŠ¡æ¥å£
