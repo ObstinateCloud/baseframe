@@ -1,8 +1,8 @@
 package com.lengedyun.dubbo_producer.service.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.lengedyun.dubbo_producer.entity.UserEntity;
 import com.lengedyun.dubbo_producer.service.UserService;
-import org.springframework.stereotype.Service;
 
 /**
  * @author zjy
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @description: TODO
  * @date 2019/6/11 16:36
  */
-@Service
+@Service(version = "1.0")
 public class UserServiceImpl implements UserService {
     @Override
     public UserEntity getUser() {

@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserConsumer {
 
-    @Reference
+    @Reference(version = "1.0")
     private UserService userService;
 
     public UserEntity getUser(){

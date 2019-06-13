@@ -4,6 +4,10 @@ server:
 
   ## Dubbo 消费者
 spring:
-  dubbo: application.name: consumer
-         registry.address: zookeeper://192.168.157.128:2181
-         scan: com.lengedyun.dubbo_consumer.service
+  dubbo:
+    application:
+      name: consumer
+         #registry.address: zookeeper://192.168.157.128:2181
+    registry:
+      address: zookeeper://192.168.189.50:2181
+    scan: com.lengedyun.dubbo_consumer.service
