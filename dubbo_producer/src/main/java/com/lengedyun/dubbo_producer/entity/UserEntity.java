@@ -3,6 +3,8 @@ package com.lengedyun.dubbo_producer.entity;
 import lombok.Data;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 /**
  * @author zjy
  * @title: UserEntity
@@ -12,7 +14,7 @@ import lombok.ToString;
  */
 @Data
 @ToString
-public class UserEntity {
+public class UserEntity implements Serializable {
 
     private Integer id;
 
