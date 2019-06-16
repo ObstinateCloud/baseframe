@@ -22,6 +22,8 @@
     <modules>
         <module>dubbo_consumer</module>
         <module>dubbo_producer</module>
+        <module>kafka_producer</module>
+        <module>kafka_consumer</module>
     </modules>
 
     <dependencies>
