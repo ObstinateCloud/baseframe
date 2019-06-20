@@ -1,0 +1,20 @@
+#===============kafka==============
+kafka:
+  consumer:
+    zookeeper:
+      connect: 192.168.157.128:2181
+    servers: 192.168.157.128:9092
+    enable:
+      auto:
+        commit: true
+  session:
+    timeout: 6000
+  auto:
+    commit:
+      interval: 100
+    offset:
+      reset: latest
+  topic: zjy
+  group:
+    id: zjy
+  concurrency: 10

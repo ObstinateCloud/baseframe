@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo_consumer" />
         <module name="dubbo_producer" />
+        <module name="kafka_consumer" />
+        <module name="kafka_producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo_consumer" target="1.8" />
       <module name="dubbo_producer" target="1.8" />
+      <module name="kafka_consumer" target="1.8" />
+      <module name="kafka_producer" target="1.8" />
       <module name="springboot_multimodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +24,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dubbo_consumer" options="-parameters" />
       <module name="dubbo_producer" options="-parameters" />
+      <module name="kafka_consumer" options="-parameters" />
+      <module name="kafka_producer" options="-parameters" />
       <module name="springboot_multimodule" options="-parameters" />
     </option>
   </component>
